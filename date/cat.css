@@ -1,0 +1,92 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-image: url(shycat.jpg);
+    background-size: cover;
+}
+
+
+h1{
+    margin-top: 50px;
+    color: lightgreen;
+    font-size: 84px;
+}
+
+#heart{
+    margin-top: 20px;
+    color: red;
+    font-size: 106px;
+    text-shadow: 10px 6px rgba(0, 0, 0, 1);
+}
+
+h3{
+    color: aquamarine;
+    font-size: 80px;
+    margin-top: 20px;
+}
+ 
+#smile{
+    color: yellow;
+}
+
+h2{
+    text-align:right;
+    color: aqua;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:800px){
+    body{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-image: url(cute.jpg);
+    }
+    h1{
+        color: rgb(11, 184, 11);
+    }
+    h3{
+        color: cornflowerblue;
+    }
+    h2{
+        color: cornflowerblue;
+    }
+}
+
+@media screen and (max-width:450px)
+{
+    h1{
+        font-size: 64px;
+    }
+    #heart{
+        font-size: 80px;
+    }
+    h3{
+        font-size: 58px;
+    }
+}
+
+@media screen and (max-width:350px){
+    h1{
+        font-size: 50px;
+        color: blue;
+    }
+    #heart{
+        font-size: 60px;
+    }
+    h3{
+        color: rgb(69, 224, 69);
+    }
+}
